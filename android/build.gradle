@@ -1,0 +1,34 @@
+// Top-level build.gradle file
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Add the Android Gradle plugin classpath
+        classpath 'com.android.tools.build:gradle:7.3.1' // Ensure this version is specified
+
+        // Other classpaths if needed
+        // classpath 'com.google.gms:google-services:4.3.10' // Example for Google services
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
