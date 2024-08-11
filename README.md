@@ -1,16 +1,32 @@
-# local_notifications
+# Local Notifications
 
-A new Flutter project.
+A new Flutter project showcasing local notifications.
+
+## Screenshots
+
+Here are some screenshots of the app:
+
+### Home Screen
+
+![Home Screen](assets/images/home_screen.png)
+
+### Notification Settings
+
+![Notification Settings](assets/images/settings_screen.png)
+
+### Notification Received
+
+![Notification Received](assets/images/notification_received.png)
+
+### Notification Details
+
+![Notification Details](assets/images/notification_details.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application. To get started with this project, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the Repository**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```sh
+   git clone https://github.com/your-username/local_notifications.git
